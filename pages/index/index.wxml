@@ -2,7 +2,7 @@
 <swiper class="swi" autoplay="true" indicator-dots> 
   <swiper-item class="" item-id="">
     <view class="swi1" hover-class="none" hover-stop-propagation="false">
-      轮播
+      轮播图1
     </view>
   </swiper-item>
   <swiper-item class="" item-id="">
@@ -16,7 +16,8 @@
     </view>
   </swiper-item>
 </swiper>
-  
 <view class="bottomMenu">
-  
+    <button class="bottomMenu-button">按钮1</button>
+    <button class="bottomMenu-button">按钮2</button>
+    <button class="bottomMenu-button">按钮3</button>
 </view>
