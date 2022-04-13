@@ -1,2 +1,22 @@
 <!--index.wxml-->
-<text>pages/personalCenter/personalCenter.wxml</text>
+<swiper class="swi" autoplay="true" indicator-dots> 
+  <swiper-item class="" item-id="">
+    <view class="swi1" hover-class="none" hover-stop-propagation="false">
+      轮播图1
+    </view>
+  </swiper-item>
+  <swiper-item class="" item-id="">
+    <view class="swi2" hover-class="none" hover-stop-propagation="false">
+      轮播图2
+    </view>
+  </swiper-item>
+  <swiper-item class="" item-id="">
+    <view class="swi3" hover-class="none" hover-stop-propagation="false">
+      轮播图3
+    </view>
+  </swiper-item>
+</swiper>
+  
+<view class="bottomMenu">
+  
+</view>

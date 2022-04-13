@@ -1,1 +1,38 @@
 /**index.wxss**/
+.swi {
+    width: 100%;
+    height: 180px;
+}
+
+.swi1 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 150px;
+    background-color: lightblue;
+}
+
+.swi2 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 150px;
+    background-color: lightpink;
+}
+
+.swi3 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 150px;
+    background-color: lightgreen;
+}
+
+.bottomMenu {
+    width: 100%;
+    height: 60px;
+    background-color: red;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
