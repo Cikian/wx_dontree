@@ -5,7 +5,22 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    message: 'Hello World',
+  },
+  onclick1: function () {
+    this.setData({
+      message: 'Hello boy'
+    })
+  },
+  onclick2: function () {
+    this.setData({
+      message: 'Hello girl'
+    })
+  },
+  onclick3: function () {
+    this.setData({
+      message: 'Hello Cikian'
+    })
   },
 
   /**

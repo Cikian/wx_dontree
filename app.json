@@ -2,8 +2,33 @@
   "pages": [
     "pages/index/index",
     "pages/personalCenter/personalCenter",
+    "pages/list/list",
     "pages/logs/logs"
   ],
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "#00FF7F",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "logos/home.png",
+        "selectedIconPath": "logos/home.png"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "text": "捐助",
+        "iconPath": "logos/home.png",
+        "selectedIconPath": "logos/home.png"
+      },
+      {
+        "pagePath": "pages/personalCenter/personalCenter",
+        "text": "我的",
+        "iconPath": "logos/home.png",
+        "selectedIconPath": "logos/home.png"
+      }
+    ]
+  },
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
