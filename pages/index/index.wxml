@@ -35,4 +35,5 @@
     <view class="trees-pic" id="tree4">tree4图片</view>
     tree4
   </view>
+  <button id="viewMore">查看更多...</button>
 </view>
