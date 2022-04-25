@@ -15,7 +15,9 @@
   <button id="mid-button2">按钮2</button>
 </view>
 <view class="news" hover-class="none" hover-stop-propagation="false">
-  <view class="" hover-class="none" hover-stop-propagation="false">news1</view>
+  <view class="" hover-class="none" hover-stop-propagation="false">
+    <text selectable>news1</text>
+  </view>
   <view class="" hover-class="none" hover-stop-propagation="false">news2</view>
 </view>
 <view id="trees-box" hover-class="none" hover-stop-propagation="false">
