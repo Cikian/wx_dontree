@@ -1,4 +1,5 @@
 <!-- index.wxml -->
+<!-- 轮播图 -->
 <swiper class="swi" autoplay="true" indicator-dots>
   <swiper-item class="" item-id="">
     <view class="swi1" hover-class="none" hover-stop-propagation="false">轮播图1</view>
@@ -10,23 +11,29 @@
     <view class="swi3" hover-class="none" hover-stop-propagation="false">轮播图3</view>
   </swiper-item>
 </swiper>
+<!-- 轮播图--End -->
+<!-- 中间两个按钮 -->
 <view id="mid-buttons">
-  <button id="mid-button1">按钮1</button>
+  <button id="mid-button1" bindtap="onclick1">按钮1</button>
   <button id="mid-button2">按钮2</button>
 </view>
+<!-- 中间两个按钮--End -->
+<!-- news -->
 <view class="news" hover-class="none" hover-stop-propagation="false">
   <view class="" hover-class="none" hover-stop-propagation="false">
     <text selectable>news1</text>
   </view>
   <view class="" hover-class="none" hover-stop-propagation="false">news2</view>
 </view>
+<!-- news--End -->
+<!-- 热门推荐 -->
 <view id="trees-box" hover-class="none" hover-stop-propagation="false">
   <view class="trees">
-    <view class="trees-pic" id="tree1" onclick="changeColor()">tree1图片</view>
-    tree1
+    <view class="trees-pic" id="tree1" bindtap="onclick1">tree1图片</view>
+    {{treeName}}
   </view>
   <view class="trees">
-    <view class="trees-pic" id="tree2">tree2图片</view>
+    <view class="trees-pic" id="tree2" bindtap="onclick2">tree2图片</view>
     tree2
   </view>
   <view class="trees">
@@ -39,3 +46,4 @@
   </view>
   <button id="viewMore">查看更多...</button>
 </view>
+<!-- 热门推荐--End -->

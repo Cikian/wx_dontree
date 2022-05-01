@@ -1,2 +1,43 @@
-<!--pages/list/list.wxml-->
-<text>pages/list/list.wxml</text>
+<!-- pages/list/list.wxml -->
+<view id="trees-box" hover-class="none" hover-stop-propagation="false">
+    <view class="trees">
+        <view class="trees-pic" id="tree1" bindtap="onclick1">tree1图片</view>
+        {{treeName}}
+    </view>
+    <view class="trees">
+        <view class="trees-pic" id="tree2" bindtap="onclick2">tree2图片</view>
+        tree2
+    </view>
+    <view class="trees">
+        <view class="trees-pic" id="tree3">tree3图片</view>
+        tree3
+    </view>
+    <view class="trees">
+        <view class="trees-pic" id="tree4">tree4图片</view>
+        tree4
+    </view>
+    <view class="trees">
+        <view class="trees-pic" id="tree5">tree5图片</view>
+        tree5
+    </view>
+    <view class="trees">
+        <view class="trees-pic" id="tree6">tree6图片</view>
+        tree6
+    </view>
+    <view class="trees">
+        <view class="trees-pic" id="tree7">tree7图片</view>
+        tree7
+    </view>
+    <view class="trees">
+        <view class="trees-pic" id="tree8">tree8图片</view>
+        tree8
+    </view>
+    <view class="trees">
+        <view class="trees-pic" id="tree9">tree9图片</view>
+        tree9
+    </view>
+    <view class="trees">
+        <view class="trees-pic" id="tree10">tree10图片</view>
+        tree10
+    </view>
+</view>

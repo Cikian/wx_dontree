@@ -1,81 +1,17 @@
 // index.js
 Page({
 
-  /**
-   * 页面的初始数据
-   */
   data: {
-    message: 'Hello World',
+    treeName: 'Hello World',
   },
-  onclick1: function () {
+  onclick1() {
     this.setData({
-      message: 'Hello boy'
+      treeName: 'Hello boy'
     })
   },
-  onclick2: function () {
+  onclick2() {
     this.setData({
-      message: 'Hello girl'
+      treeName: 'Hello girl'
     })
   },
-  onclick3: function () {
-    this.setData({
-      message: 'Hello Cikian'
-    })
-  },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
-  }
 })
