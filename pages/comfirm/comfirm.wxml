@@ -1,0 +1,37 @@
+<!--pages/comfirm/comfirm.wxml-->
+<view class="address">
+
+</view>
+
+<view class="tree">
+    <view class="treePicture">
+        <image src="https://img.cikian.cn/mypic/cikian.jpg" class=" img" mode="heightFix"></image>
+    </view>
+    <view class="treeName">
+        <rich-text nodes="<h6>苹果树 品种等等等</h6>"></rich-text>
+    </view>
+    <view class="treePrice">
+        <rich-text nodes="<h3 style='color:red;'>19.6￥</h3>"></rich-text>
+    </view>
+
+    <button bindtap="changeCount2" class="button_l" size="mini">-</button>
+    <view class="cot">{{count}}</view>
+    <button bindtap="changeCount1" class="button_r" size="mini" id="button_l">+</button>
+
+    <input class="treeInput" maxlength="100" placeholder="留言" />
+</view>
+
+<view class="price">
+    <view class="a_left"><rich-text nodes="<h5 style='color:black;font-weight:lighter;'>金额</h5>"></rich-text></view>
+    <view class="a_right"><rich-text nodes="<h5 style='color:black;text-align:right;'>19.6￥</h5>"></rich-text></view>
+    <view class="b_left"><rich-text nodes="<h5 style='color:black;font-weight:lighter;'>运费</h5>"></rich-text></view>
+    <view class="b_right"><rich-text nodes="<h5 style='color:black;text-align:right;'>0￥</h5>"></rich-text></view>
+    <view class="line"></view>
+</view>
+
+<view class="comfirmm">
+    <view class="comfPrice">
+        <rich-text nodes="<h2 style='color:red;'>19.6￥</h2>"></rich-text>
+    </view>
+    <button class="comfOk"><text class="ok">确认</text></button>
+</view>
