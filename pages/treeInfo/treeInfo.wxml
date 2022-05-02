@@ -6,6 +6,6 @@
     <view class="infoBox">
         <view class="info">适种环境：{{treeInfo.environment}}</view>
         <view class="info">结果周期：{{treeInfo.cycle}}</view>
-        <view class="info">一般寿：{{treeInfo.life}}</view>
+        <view class="info">一般寿命：{{treeInfo.life}}</view>
     </view>
 </view>
