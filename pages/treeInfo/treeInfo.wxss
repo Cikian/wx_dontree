@@ -1,0 +1,42 @@
+/* pages/treeInfo/treeInfo.wxss */
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.card {
+    width: 82%;
+    height: 100%;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    text-align: left;
+}
+
+.card image {
+    width: 100%;
+}
+
+.name {
+    margin: 0 50rpx;
+    font-size: 50rpx;
+    color: rgb(0, 1, 37);
+    border-bottom: 2px solid #000;
+    padding-left: 10rpx;
+}
+
+.words {
+    margin: 0 50rpx;
+    margin-top: 25rpx;
+    font-size: 30rpx;
+    margin-bottom: 50rpx;
+}
+
+.info {
+    margin: 12rpx 50rpx;
+    font-size: 35rpx;
+}

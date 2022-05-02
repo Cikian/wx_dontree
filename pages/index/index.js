@@ -2,16 +2,25 @@
 Page({
 
   data: {
-    treeName: 'Hello World',
-  },
-  onclick1() {
-    this.setData({
-      treeName: 'Hello boy'
+    apple: ({
+      id: 'tree1',
+      name: '苹果',
+      words: 'word1',
+      imgURL: 'https://img.cikian.cn/donTree/apple.jpg',
+    }),
+
+    peach: ({
+      id: 'tree1',
+      name: '桃',
+      words: 'word1',
+      imgURL: 'https://img.cikian.cn/donTree/peach.jpg',
     })
+
+
   },
-  onclick2() {
-    this.setData({
-      treeName: 'Hello girl'
+  toTreeInfo(event) {
+    wx.navigateTo({
+      url: '/pages/treeInfo/treeInfo?id=' + event.target.id,
     })
   },
 })

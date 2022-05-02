@@ -1,0 +1,11 @@
+<!-- pages/treeInfo/treeInfo.wxml -->
+<view class="card">
+    <image src="{{treeInfo.imgURL}}" mode="widthFix"></image>
+    <view class="name">{{treeInfo.name}}</view>
+    <view class="words">{{treeInfo.words}}</view>
+    <view class="infoBox">
+        <view class="info">适种环境：{{treeInfo.environment}}</view>
+        <view class="info">结果周期：{{treeInfo.cycle}}</view>
+        <view class="info">一般寿命：{{treeInfo.life}}</view>
+    </view>
+</view>

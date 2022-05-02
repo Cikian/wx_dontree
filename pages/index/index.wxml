@@ -29,20 +29,28 @@
 <!-- 热门推荐 -->
 <view id="trees-box" hover-class="none" hover-stop-propagation="false">
   <view class="trees">
-    <view class="trees-pic" id="tree1" bindtap="onclick1">tree1图片</view>
-    {{treeName}}
+    <view class="treesPicBox" bindtap="toTreeInfo">
+      <image id="apple" class="treesPic" src="{{apple.imgURL}}" mode="widthFix"></image>
+    </view>
+    <text class="">{{apple.name}}</text>
   </view>
   <view class="trees">
-    <view class="trees-pic" id="tree2" bindtap="onclick2">tree2图片</view>
-    tree2
+    <view class="treesPicBox" bindtap="toTreeInfo">
+      <image id="peach" class="treesPic" src="{{peach.imgURL}}" mode="widthFix"></image>
+    </view>
+    <text class="">{{peach.name}}</text>
   </view>
   <view class="trees">
-    <view class="trees-pic" id="tree3">tree3图片</view>
-    tree3
+    <view class="treesPicBox" bindtap="toTreeInfo">
+      <image id="apple1" class="treesPic" src="{{apple.imgURL}}" mode="widthFix"></image>
+    </view>
+    <text class="">{{apple.name}}</text>
   </view>
   <view class="trees">
-    <view class="trees-pic" id="tree4">tree4图片</view>
-    tree4
+    <view class="treesPicBox" bindtap="toTreeInfo">
+      <image id="peach1" class="treesPic" src="{{peach.imgURL}}" mode="widthFix"></image>
+    </view>
+    <text class="">{{peach.name}}</text>
   </view>
   <button id="viewMore">查看更多...</button>
 </view>
