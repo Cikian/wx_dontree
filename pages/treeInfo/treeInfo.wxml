@@ -5,9 +5,7 @@
     <view class="words">{{treeInfo.words}}</view>
     <view class="infoBox">
         <view class="info">适种环境：{{treeInfo.environment}}</view>
-        <view class="info">结果：{{treeInfo.cycle}}</view>
+        <view class="info">结果周期：{{treeInfo.cycle}}</view>
         <view class="info">一般寿命：{{treeInfo.life}}</view>
     </view>
 </view>
-
-<view class="info">测试</view>
